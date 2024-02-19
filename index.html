@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-commerce website</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <header>
+        <div class="nav container">
+            <a href="#" class="logo">Ecommerce</a>
+            <i class='bx bxs-shopping-bag' id="cart-icon" data-quantity="0"></i>
+            <div class="cart">
+                <h2 class="cart-title">
+                    Your Cart
+                </h2>
+                <div class="cart-content">
+                </div>
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+
+                <button type="button" class="btn-buy" id="btn-order"> Pay Now</button>
+
+                <i class='bx bx-window-close' id="close-cart"></i>
+    
+            </div>
+        </div>
+    </header>
+
+
+    <section class="shop container">
+        <h2 class="section-title">Shop Products</h2>
+
+        <div class="shop-content">
+
+            <!-- box1 -->
+            <div class="product-box">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-gR-3G-4O2VvmJgepTLny03oopHxodbie4YWZ0u1DFBJmhfL-wyrL1ykQXeqao4bjtIQ371xKF_9_9_ovTL2HwI9UWQjOWQjgQoelaNSQY9Egp-LNInFGCrqBbDBWGbmNynu9rrTHRiy1qJOks0BV-aD_G7I07StLECmRo-2x47CVmHDbZT8LfsdH_N7A/s320/product11.jpg" alt=""
+                class="product-img">
+                <h2 class="product-title"> ADICOLOR SEASONAL</h2>
+                <span class="price">$37.07</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+
+            </div>
+
+            <!-- box2 -->
+            <div class="product-box">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEho9Y6oShCXaPI-JG8cLhbB3Qnqzg6G1IMcBgNsU35bfV9hwmCfr3R9DN50EICVrpTkKLbVI7eXYbmq3yyKaMY-bII5cNRUPS8uFQIgxmOGsazXhbGgBiWIjQlpW_9-9u7LDwa55WzVTnQJU0Zo54ibPTu-fbo0-BSVG51eHQOLheMiBuCeCh8P3oRXGv1q/s320/product2.jpg" alt=""
+                class="product-img">
+                <h2 class="product-title"> BACKPACK</h2>
+                <span class="price">$39</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+
+            </div>
+
+            <!-- box3 -->
+            <div class="product-box">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh85Kf-AcrgOOd3J86x0_FpiLBUskkNVVZt45XLp8UYku20zbKfe2VeWl_hz1pN13odrmfgP_OKF-l5XsPfkt1asy8aGAInIIjLmr0Zkh9BlTa4OPJVYW1ToCQGt5SE105gEDasaE2U0Unl6E9TwrsChyj0i1xJ3_GB268H4HU_cczst3ZpMtac0TWeRzTo/s320/product3.jpg" alt=""
+                class="product-img">
+                <h2 class="product-title"> HAT</h2>
+                <span class="price">$22</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+
+            </div>
+
+            <!-- box4 -->
+            <div class="product-box">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNvqwlUWgeUWXDKDstMB6Lel31V3HMrBzn7TJJXGYpw9heF4Wod5mQhyujbpUyjXqqmxmQQU_urA78eMgL4ohUJ8jyQtgb7rGqHRAkpFhD6ZO5s2C5EmlAFR9AQ0wBUcwAoa4VOQdrtH4tYXo0co9flYY6S6ubv6m5ZuHVeRi0zWELtDah67MUfzVUgLvT/s320/product4.jpg" alt=""
+                class="product-img">
+                <h2 class="product-title"> WHITE SHIRT</h2>
+                <span class="price">$15</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+
+            </div>
+
+            <!-- box5 -->
+            <div class="product-box">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsVCTqAnBhCcWDo2sWZI0wAqTWrvhr4BVLYlvgF8D2j1j2XrtPXSWluWELbd4bT8Po9CFCrbOeaZS8IVVLLz6KozAGS_BvYxcRiMi9wXYbyV7UyNzwluvJiTaqkfXHUic7FaUZE6MoxjeDCJFiV3-IQEw6PMn2Fv0t2114hKQVZtsFEVf3eYNLADudRfEU/s320/product5.jpg" alt=""
+                class="product-img">
+                <h2 class="product-title"> COLORFUL HOODIE</h2>
+                <span class="price">$250</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+
+            </div>
+
+            <!-- box6 -->
+            <div class="product-box">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_BkwkutCCcHfZEDwOfnfabfIVaIeZSOqudxivnUOiwJ9el4I8cv4-6q5jm_I-sVPI6U7z2UrkdKhUWCDLlsc0PJJLlmgKEsFRSwbzVM8kZ1V1MucrX_iQ4N9tORGYBBnjym_4X_LGVaCySzlMZ9aHfNh0ZVcEa4Doj1i7fhyphenhyphenhuChUQIG9m19iuKYR2724/s320/product6.jpg" alt=""
+                class="product-img">
+                <h2 class="product-title"> AIRPODS</h2>
+                <span class="price">$75</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+
+            </div>
+
+            <!-- box7 -->
+            <div class="product-box">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6Ot_miP8M_-Es7aZ4ykmhFUzWCx93jAESJZZS8Rvdo39aOnU33uWB7pxoAtEn-FQ82nmx8DUrxSOAMcalJFLnKfwWvExqrxaNjOQYfy7TGecAby6ojVRrgliUTZvyhN9kIB7ojJgE9jVonRZNrNGLSPPdkVGcu1lVJQYhKERVbVde978h_nIZrqRAt3qc/s320/product7.jpg" alt=""
+                class="product-img">
+                <h2 class="product-title"> BOTTLE</h2>
+                <span class="price">$10</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+
+            </div>
+
+            <!-- box8 -->
+            <div class="product-box">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjY32pXChB03IeGZqgR-dRHUl4DD2ge5GS9eUM84gp7RovGwbzWXRKq4Hnd2f-s-929Cxzv7Hhnz9mqhz9vt_fZLw7pAuLibE0omEF7rKH0Ir3Gmei7Px_rBT8vOFtd-24Tk7hxhDViuRq6u4RQGUqYWUAZR6_rtONkTZ4aph7uRb63Gk0H6jQfeu40umWj/s320/product8.jpg" alt=""
+                class="product-img">
+                <h2 class="product-title"> NIKE AF1</h2>
+                <span class="price">$300</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+
+            </div>
+
+        </div>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
